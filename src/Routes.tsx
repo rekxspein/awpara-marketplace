@@ -1,7 +1,6 @@
 import { FC, ReactNode, useMemo } from 'react';
 import { Navigate, Route, Routes as RouterRoutes } from 'react-router-dom';
-import Home from './pages/Home';
-import { Next } from './pages/Next';
+import LandingPage from './pages/LandingPage';
 import { joinPaths } from './utils';
 
 const Routes: FC = () => {
@@ -24,13 +23,7 @@ const Routes: FC = () => {
 
 const ROUTES: IRoute = {
   path: '/',
-  component: <Home />,
-  children: [
-    {
-      path: '/next',
-      component: <Next />
-    }
-  ]
+  component: <LandingPage />
 };
 
 const parseRoutes = (
