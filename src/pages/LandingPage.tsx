@@ -1,19 +1,13 @@
 import { Box } from '@mui/material';
 import { FC } from 'react';
+import Hero from '../component/Hero';
 
 const LandingPage: FC = () => {
   return (
-    <Box
-      sx={{
-        height: '100%',
-        width: '100%',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }}
-    >
-      <div className="text-3xl font-bold underline">Awpara Marketplace !!!</div>
+    <Box className="relative z-0 bg-primary">
+      <Box className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <Hero />
+      </Box>
     </Box>
   );
 };
