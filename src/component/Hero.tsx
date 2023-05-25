@@ -19,14 +19,12 @@ const Hero = () => {
             <span className="text-[#915EFF]">Manipur!!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Buy and Sell 3D Objects, Visuals,
+            Buy and Sell 3D Visuals, Objects
             <br className="sm:block hidden" />
-            Download and use it anywhere on Native and web applications
+            Download and use it anywhere on Native and Web applications
           </p>
         </div>
       </div>
-
-      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
